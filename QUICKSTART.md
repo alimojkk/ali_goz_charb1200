@@ -21,19 +21,15 @@ bash install.sh
 
 ## 🅱️ روش دستی / Manual (no terminal)
 
-### 1. GitHub
-**EN:** https://github.com/new → name it `manixshop-vps` → **Create** → **uploading an existing file** → drag in **all the files** from the zip → **Commit**.
-**FA:** به https://github.com/new برو → اسمش `manixshop-vps` → **Create** → روی **uploading an existing file** بزن → **همه فایل‌های** داخل زیپ را بکش و رها کن → **Commit**.
-
-### 2. Railway
+### 1. Railway
 **EN:** https://railway.com/new → **Deploy from GitHub repo** → pick the repo. Wait 3–5 min.
 **FA:** به https://railway.com/new برو → **Deploy from GitHub repo** → ریپو را انتخاب کن. ۳ تا ۵ دقیقه صبر کن.
 
-### 3. Domain / دامنه
+### 2. Domain / دامنه
 **EN:** Settings → Networking → **Generate Domain** (port `7681` is auto-detected).
 **FA:** Settings → Networking → **Generate Domain** (پورت `7681` خودکار شناسایی می‌شود).
 
-### 4. Volume (mهم / important)
+### 3. Volume (mهم / important)
 **EN:** + New → **Volume** → mount path `/data`. Without it, everything resets on redeploy.
 **FA:** + New → **Volume** → مسیر `/data`. بدون این، همه‌چیز با ری‌دیپلوی پاک می‌شود.
 
